@@ -1,10 +1,10 @@
 # NeuOpt
 
 NeuOpt is a learning-to-search (L2S) solver for vehicle routing problems (VRPs). It learns to perform flexible k-opt exchanges based on novel designs including:
-- **Tailored action factorization (S-move, I-move, E-move)**, which simplifies k-opt exchanges and enables autonomous scheduling of dynamic k during search
+- **Tailored action factorization (S-move, I-move, E-move)**, which simplifies k-opt exchanges and enables autonomous scheduling of dynamic k during search.
 - **Customized recurrent dual-stream (RDS) decoder**, which is flexible to control k-opt with any $k\ge2$ and effectively captures the strong correlations between the removed and added edges.
-- **Guided Infeasible Region Exploration (GIRE)**, which is the first constraint handling scheme that promotes autonomous exploration of both feasible and infeasible regions beyound feasibility masking
-- **Dynamic Data Augmentaion**, which enables NeuOpt to explicitly escape from the local optima.
+- **Guided Infeasible Region Exploration (GIRE)**, which is the first constraint handling scheme that promotes autonomous exploration of both feasible and infeasible regions beyound feasibility masking.
+- **Dynamic Data Augmentation**, which enables NeuOpt to explicitly escape from the local optima.
 
 # Paper
 Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt
