@@ -6,13 +6,8 @@ NeuOpt is a learning-to-search (L2S) solver for vehicle routing problems (VRPs).
 - **Guided Infeasible Region Exploration (GIRE)**, which is the first constraint handling scheme that promotes autonomous exploration of both feasible and infeasible regions beyound feasibility masking
 - **Dynamic Data Augmentaion**, which enables NeuOpt to explicitly escape from the local optima.
 
-
-![](pdp.gif)
-
 # Paper
 Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt
-
-![architecture](./main.jpg)
 
 # Dependencies
 * Python=3.10.8
