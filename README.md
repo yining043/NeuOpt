@@ -5,8 +5,9 @@ NeuOpt is a learning-to-search (L2S) solver for Vehicle Routing Problems (VRPs).
 - **Customized Recurrent Dual-Stream (RDS) decoder**, which is flexible to control k-opt with any $k\ge2$ and effectively captures the strong correlations between the removed and added edges.
 - **Guided Infeasible Region Exploration (GIRE)**, which is the first constraint handling scheme that promotes autonomous exploration of both feasible and infeasible regions beyound feasibility masking.
 - **Dynamic Data Augmentation (D2A)**, which enables NeuOpt to explicitly escape from the local optima.
-![architecture](GIRE.gif)
-NeuOpt-GIRE Search Process GIF (with CVRP solutions: green for feasible and red for infeasible)
+
+![](GIRE.gif)
+GIF: NeuOpt-GIRE Search Process (with CVRP solutions - green for feasible and red for infeasible)
 
 # Paper
 ![architecture](main.jpg)
