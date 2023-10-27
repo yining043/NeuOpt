@@ -20,16 +20,16 @@ def get_options(args=None):
     parser.add_argument('--use_assert', action='store_true', help='Enable Assertion')
     parser.add_argument('--seed', type=int, default=6666, help='Random seed to use')
     
-    ### new features
-    parser.add_argument('--val_m', type=int, default=1) # number of augmentation, DA=1 or DA=5 in Table 1
-    parser.add_argument('--stall_limit', type=int, default=10) # T_DA in the paper, 0 means disable
+    ### NeuOpt configs
+    parser.add_argument('--val_m', type=int, default=1) # number of augmentation, D2A=1 or D2A=5 in Table 1
+    parser.add_argument('--stall_limit', type=int, default=10) # T_D2A in the paper, 0 means disable
     parser.add_argument('--k', type=int, default=4) # the maximum basis move number K
     parser.add_argument('--wo_regular', action='store_true') # to remove reward shaping term
     parser.add_argument('--wo_bonus', action='store_true') # to remove reward shaping term
     parser.add_argument('--wo_RNN', action='store_true') # to remove RNN
     parser.add_argument('--wo_feature1', action='store_true') # to remove VI featrues
     parser.add_argument('--wo_feature3', action='store_true')  # to remove ES featrues
-    parser.add_argument('--wo_MDP', action='store_true', default='True') # always True (disabled function)
+    parser.add_argument('--wo_MDP', action='store_true', default=True) # always True (disabled function)
     
     ### resume and load models
     parser.add_argument('--load_path', default = None, help='Path to load model parameters and optimizer state from')
