@@ -1,4 +1,4 @@
-# NeuOpt
+# Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt
 
 NeuOpt is a learning-to-search (L2S) solver for Vehicle Routing Problems (VRPs). It learns to perform flexible k-opt exchanges based on novel designs including:
 - **Tailored Action Factorization (S-move, I-move, E-move)**, which simplifies k-opt exchanges and enables autonomous scheduling of dynamic k during search.
