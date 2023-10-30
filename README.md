@@ -19,7 +19,7 @@ GIF 2: NeuOpt-GIRE Search Process for CVRP (green: feasible, red: infeasible)
 
 This repo implements our paper:
 
-Yining Ma, Zhiguang Cao, and Yeow Meng Chee, “Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt”, in Advances in Neural Information Processing Systems, vol. 36, 2023.
+Yining Ma, Zhiguang Cao, and Yeow Meng Chee, “[Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt](https://arxiv.org/abs/2310.18264)”, in Advances in Neural Information Processing Systems, vol. 36, 2023.
 
 Please cite our paper if the code is useful for your project.
 ```
