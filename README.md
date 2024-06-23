@@ -68,17 +68,17 @@ CUDA_VISIBLE_DEVICES=0,1 python run.py --problem tsp --val_dataset datasets/tsp_
 ### CVRP examples
 20 nodes:
 ```python
-CUDA_VISIBLE_DEVICES=0 python run.py --proble cvrp --val_dataset datasets/cvrp_20.pkl --dummy_rate 0.5 --graph 20 --warm_up 1 --val_m 1 --T_train 250 --n_step 5 --batch_size 600 --epoch_size 12000 --max_grad_norm 0.05 --val_size 1000 --val_batch_size 1000 --T_max 1000 --stall 0 --k 4  --init_val_met random --run_name 'example_training_CVRP20'
+CUDA_VISIBLE_DEVICES=0 python run.py --problem cvrp --val_dataset datasets/cvrp_20.pkl --dummy_rate 0.5 --graph 20 --warm_up 1 --val_m 1 --T_train 250 --n_step 5 --batch_size 600 --epoch_size 12000 --max_grad_norm 0.05 --val_size 1000 --val_batch_size 1000 --T_max 1000 --stall 0 --k 4  --init_val_met random --run_name 'example_training_CVRP20'
 ```
 
 50 nodes:
 ```python
-CUDA_VISIBLE_DEVICES=0,1 python run.py --proble cvrp --val_dataset datasets/cvrp_50.pkl --dummy_rate 0.4 --graph 50 --warm_up 0.5 --val_m 1 --T_train 250 --n_step 5 --batch_size 600 --epoch_size 12000 --max_grad_norm 0.05 --val_size 1000 --val_batch_size 1000 --T_max 1000 --stall 0 --k 4 --init_val_met random --run_name 'example_training_CVRP50'
+CUDA_VISIBLE_DEVICES=0,1 python run.py --problem cvrp --val_dataset datasets/cvrp_50.pkl --dummy_rate 0.4 --graph 50 --warm_up 0.5 --val_m 1 --T_train 250 --n_step 5 --batch_size 600 --epoch_size 12000 --max_grad_norm 0.05 --val_size 1000 --val_batch_size 1000 --T_max 1000 --stall 0 --k 4 --init_val_met random --run_name 'example_training_CVRP50'
 ```
 
 100 nodes:
 ```python
-CUDA_VISIBLE_DEVICES=0,1,2,3 python run.py --proble cvrp --val_dataset datasets/cvrp_100.pkl --dummy_rate 0.2 --graph 100 --warm_up 0.25 --val_m 1 --T_train 250 --n_step 5 --batch_size 600 --epoch_size 12000 --max_grad_norm 0.05 --val_size 1000 --val_batch_size 1000 --T_max 1000 --stall 0 --k 4 --init_val_met random --run_name 'example_training_CVRP100'
+CUDA_VISIBLE_DEVICES=0,1,2,3 python run.py --problem cvrp --val_dataset datasets/cvrp_100.pkl --dummy_rate 0.2 --graph 100 --warm_up 0.25 --val_m 1 --T_train 250 --n_step 5 --batch_size 600 --epoch_size 12000 --max_grad_norm 0.05 --val_size 1000 --val_batch_size 1000 --T_max 1000 --stall 0 --k 4 --init_val_met random --run_name 'example_training_CVRP100'
 ```
 
 ### Warm start
